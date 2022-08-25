@@ -14,8 +14,13 @@ export default {
             router.push({name: 'mikuniHistory'})
         }
 
+        function navToMvq(){
+            router.push({name: 'mikuniMvq'})
+        }
+
         return{
-            navToHistory
+            navToHistory,
+            navToMvq
         }
     },
 }
@@ -215,10 +220,10 @@ export default {
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-3 d-flex align-items-center justify-content-center pt-2">
+                        <div class="col-lg-3 d-flex align-items-center justify-content-center pt-2">
                             <img src="../../assets/gayness.jpg" class="img-fluid image" style="height: 296px; width: 296px;">
                         </div>
-                        <div class="col-md-9 d-flex align-items-center pt-2">
+                        <div class="col-lg-9 d-flex align-items-center pt-2">
                             <div class="row">
                                 <p class="h4 message"><b>Kenichi Kiga,</b> President</p>
                                 <p class="h5 mes-desc">Based on internal and external trust, MTMP provides customers with outstanding
@@ -227,10 +232,10 @@ value through constant efforts and innovation.</p>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-3 d-flex align-items-center justify-content-center pt-2">
+                        <div class="col-lg-3 d-flex align-items-center justify-content-center pt-2">
                             <img src="../../assets/gayness.jpg" class="img-fluid image" style="height: 296px; width: 296px;">
                         </div>
-                        <div class="col-md-9 d-flex align-items-center pt-2">
+                        <div class="col-lg-9 d-flex align-items-center pt-2">
                             <div class="row">
                                 <p class="h4 message"><b>Tatsuya Ogiri,</b> Vice President</p>
                                 <p class="h5 mes-desc">MTMP provides customers one-stop assembly products and individual parts based on the processed parts manufacturing technology, mechatronics assembly technology, and quality control capabilities cultivated over 20 years.</p>
@@ -238,10 +243,10 @@ value through constant efforts and innovation.</p>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-3 d-flex align-items-center justify-content-center pt-2">
+                        <div class="col-lg-3 d-flex align-items-center justify-content-center pt-2">
                             <img src="../../assets/gayness.jpg" class="img-fluid image" style="height: 296px; width: 296px;">
                         </div>
-                        <div class="col-md-9 d-flex align-items-center pt-2">
+                        <div class="col-lg-9 d-flex align-items-center pt-2">
                             <div class="row">
                                 <p class="h4 message"><b>Eugene Kalaw,</b> General Manager</p>
                                 <p class="h5 mes-desc">MTMP values our people because of their dedication, fine talents, proficiency and adaptability to technology. By this, we are able to increase the motivation and career perspective of our Members.
@@ -275,7 +280,7 @@ We consider our people as our greatest asset and the heart and soul of our opera
                             <button class="nav-button h5" @click="navToHistory()">Company History</button>
                         </div>
                         <div class="col-md-6">
-                            <button class="nav-button h5">Mission, Vision, and Quality Policy</button>
+                            <button class="nav-button h5" @click="navToMvq">Mission, Vision, and Quality Policy</button>
                         </div>
                     </div>
                 </div>
@@ -382,7 +387,7 @@ We consider our people as our greatest asset and the heart and soul of our opera
         font-weight: 700;
     }
 
-    @media screen and (max-width :768px) {
+    @media screen and (max-width :993px) {
         .message{
             text-align: center;
         }

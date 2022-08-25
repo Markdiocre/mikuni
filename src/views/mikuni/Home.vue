@@ -15,9 +15,13 @@ export default {
             router.push({name: 'mikuniHistory'})
         }
 
+        function navToMvq(){
+            router.push({name: 'mikuniMvq'})
+        }
+
 
         return{
-            navToCorporate, navToHistory
+            navToCorporate, navToHistory, navToMvq
         }
     },
     components: { mikuniNavbar, mikuniFooter}
@@ -32,7 +36,7 @@ export default {
                 <p class="title">MIKUNI TERMINALS MECHATRONICS PHILIPPINES CORPORATION (MTMP)</p>
             </div>
             <div class="row d-flex align-items-center justify-content-center">
-                <router-link class="mt-5 btn btn-lg bt btn-outline-secondary" :to="{name: 'mikuniCompanyProfile'}">Learn More</router-link>
+                <router-link class="mt-5 btn btn-lg bt btn-outline-secondary" :to="{name: 'mikuniPaS'}">Learn More</router-link>
             </div>
         </div>
     </div>
@@ -120,7 +124,7 @@ export default {
                 </div>
                 <div class="row">
                     <div class="col-md-3 pt-2">
-                        <button class="nav-button h6">Mission, Vision, Quality Policy</button>
+                        <button class="nav-button h6" @click="navToMvq">Mission, Vision, Quality Policy</button>
                     </div>
                     <div class="col-md-3 pt-2">
                         <button class="nav-button h6"  @click="navToHistory">History</button>
@@ -183,6 +187,10 @@ export default {
         text-align: center;
         
         }
+
+    .image{
+        object-fit: fill;
+    }
 
     .overlay:hover .image {
         opacity: 0.2;
