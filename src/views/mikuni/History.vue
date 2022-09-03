@@ -39,28 +39,47 @@ export default {
                         <div class="row">
                             <div class="col-md-12 py-5">
                                 <p class="h3 timeline">1998</p>
-                                <p class="timeline-desc h5">Started operation as “Omron Mechatronics of The Philippines Corp.”, 100% owned by Omron Corporation</p>
+                                <p class="timeline-desc h5">Started operation as “Omron Mechatronics of The Philippines Corp.”, 100% owned by Omron Corporation<br> オムロン株式会社が100％出資
+
+の会社で、オムロンメカトロニックスフィ
+リピン株式会社（Omron Mechatronics of
+the Philippines Corp)として設立されまし
+た</p>
                             </div>
                         </div>
 
                          <div class="row">
                             <div class="col-md-12 py-5">
                                 <p class="h3 timeline">2004</p>
-                                <p class="timeline-desc h5">Changed the corporate name to“Top Mechatronics Corp.” 100% owned by Hitachi-Omron Terminal Solutions, Corp.</p>
+                                <p class="timeline-desc h5">Changed the corporate name to“Top Mechatronics Corp.” 100% owned by Hitachi-Omron Terminal Solutions, Corp. <br>日立オムロンターミナルソリューション
+ズ株式会社の全額出資子会社となり、
+トップメカトロニクス株式会社（Top
+Mechatronics Corp）と社名が変更され</p>
                             </div>
                         </div>
 
                          <div class="row">
                             <div class="col-md-12 py-5">
                                 <p class="h3 timeline">2007</p>
-                                <p class="timeline-desc h5">Changed the corporate name to “Hitachi Terminals Mechatronics Philippines Corp.” 100% owned by Hitachi-Omron Terminal Solutions, Corp.</p>
+                                <p class="timeline-desc h5">Changed the corporate name to “Hitachi Terminals Mechatronics Philippines Corp.” 100% owned by Hitachi-Omron Terminal Solutions, Corp. <br>日立オムロンターミナルソシューション
+ズ株式会社の全額出資子会社で、日立
+ターミナルメカトロニクスフィリピン株
+式会社（Hitachi Terminals Mechatronics
+Philippines Corp）と社名が変更されまし
+た</p>
                             </div>
                         </div>
 
                          <div class="row">
                             <div class="col-md-12 py-5">
                                 <p class="h3 timeline">2019</p>
-                                <p class="timeline-desc h5">Acquired by Mikuni Toyo Changed the corporate name to “Mikuni Terminals Mechatronics Philippines Corporation” 100% owned by Mikuni Toyo, Co. Ltd.</p>
+                                <p class="timeline-desc h5">Acquired by Mikuni Toyo Changed the corporate name to “Mikuni Terminals Mechatronics Philippines Corporation” 100% owned by Mikuni Toyo, Co. Ltd.<br>三国東洋株式会社へ株式譲渡し、三国
+ターミナルメカトロニクスフィリピン株
+式会社（Mikuni Terminals Mechatronics
+Philippines Corporation）と社名が変更
+されました。
+
+三国東洋の全額出資の会社です。</p>
                             </div>
                         </div>
                        

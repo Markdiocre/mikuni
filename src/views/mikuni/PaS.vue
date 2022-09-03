@@ -9,13 +9,20 @@ export default {
         const isToolOpen = ref(false)
         const isInjectionOpen = ref(false)
         const isResin = ref(false)
+        const isPSOpen = ref(false)
+        const isLTOpen = ref(false)
+        const isSPOpen = ref(false)
+        const isCNCOpen = ref(false)
+        const isRBOpen = ref(false)
+        const isMPAOpen = ref(false)
+        const isIESOpen = ref(false)
 
         function showVar(valueHere){
             return valueHere = !valueHere
         }
 
         return{
-            isDMOpen, showVar,isToolOpen, isInjectionOpen, isResin
+            isDMOpen, showVar,isToolOpen, isInjectionOpen, isResin, isPSOpen, isLTOpen, isSPOpen, isCNCOpen, isRBOpen,isMPAOpen, isIESOpen
         }
     },
     components: { MikuniNavbar, MikuniFooter }
@@ -27,10 +34,10 @@ export default {
         <div class="container-fluid pt-5">
             <div class="container-fluid pt-4">
                 <div class="row">
-                    <div class="col-md-2">
+                    <div class="col-lg-2">
 
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-lg-8">
                         <div class="row">
                             <div class="col-md-12">
                                 <p class="h1 text-center title">OUR SERVICES</p>
@@ -770,8 +777,1048 @@ export default {
                         </div>
                         </Transition>
 
+                        <div class="row">
+                            <div class="col-md-12">
+                                <hr class="hr">
+                            </div>
+                        </div>
+<!--Press Stamping-->
+                        <div class="row">
+                            <div class="col-md-12 d-flex justify-content-between case" @click="isPSOpen = showVar(isPSOpen)">
+                                <p class="h4 title ">Press Stamping</p>
+                                <p v-if="isPSOpen"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
+                                <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
+                                </svg></p>
+                                <p v-else><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                                    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                                </svg></p>
+                            </div>
+                        </div>
+                        <Transition>
+                        <div v-show="isPSOpen">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p>We have an extensive knowledge, skills and experience in producing sheet metal stamping parts from mild steel to stainless steel materials with variety of thickness from0.2mm to 3.2mm.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Press Stamping Part</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Press Stamping Part</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Quick Die Change System</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Quick Die Change System</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Auto Clamp Tech</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Metal Shearing</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Press Stamping</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Die Storage</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 table-responsive pt-2">
+                                    <table class="table table-light table-hover table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th>Tonnageトン数</th>
+                                                <th>Quantity 台数</th>
+                                                <th>Brand & Model 機種・メーカ</th>
+                                                <th>Die Height ダイハイト</th>
+                                                <th>Bolster Size ボルスター寸法 (L x W)</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>35</td>
+                                                <td>1</td>
+                                                <td>Seyi, SN1-35</td>
+                                                <td>220mm</td>
+                                                <td>780 x 400mm</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>45</td>
+                                                <td>1</td>
+                                                <td>Seyi, SN1-45</td>
+                                                <td>240mm</td>
+                                                <td>840 x 440mm</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>45</td>
+                                                <td>2</td>
+                                                <td>Komatsu, OBS45</td>
+                                                <td>249mm</td>
+                                                <td>800 x 450mm</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>60</td>
+                                                <td>1</td>
+                                                <td>Seyi, SN1-60</td>
+                                                <td>270mm</td>
+                                                <td>900 x 520mm</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>60</td>
+                                                <td>1</td>
+                                                <td>Chin Fong, OCP60</td>
+                                                <td>270mm</td>
+                                                <td>900 x 400mm</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>80</td>
+                                                <td>1</td>
+                                                <td>Chin Fong, OCP80</td>
+                                                <td>300mm</td>
+                                                <td>1,000 x 460mm</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>80</td>
+                                                <td>2</td>
+                                                <td>Komatsu, OBS80</td>
+                                                <td>300mm</td>
+                                                <td>1,000 x 460mm</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>200</td>
+                                                <td>1</td>
+                                                <td>Seyi, SN1-200</td>
+                                                <td>400mm</td>
+                                                <td>1,400 x 840mm</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>200</td>
+                                                <td>2</td>
+                                                <td>Komatsu, OBS200</td>
+                                                <td>450mm</td>
+                                                <td>1,400 x 840mm</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td colspan="5">総計台数: 12</td>
+
+                                                
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                </div>
+                            </div>
+                        </div>
+                        </Transition>
 
 
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <hr class="hr">
+                            </div>
+                        </div>
+<!--Laser - Turret & Press Brake Production -->
+                        <div class="row">
+                            <div class="col-md-12 d-flex justify-content-between case" @click="isLTOpen = showVar(isLTOpen)">
+                                <p class="h4 title ">Laser - Turret & Press Brake Production </p>
+                                <p v-if="isLTOpen"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
+                                <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
+                                </svg></p>
+                                <p v-else><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                                    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                                </svg></p>
+                            </div>
+                        </div>
+                        <Transition>
+                        <div v-show="isLTOpen">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p>We have skills and equipment to manufacture sheet-metal parts either for prototyping or for mass-production through the variety of CNC machines equipped with CAD/CAM software.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Laser Turret Part</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Laser Turret Part</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Laser Turret Part</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Laser Turret Part</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">3D Deburring</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Press Brake</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">CNC Tapping</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Turret Tool Grinding</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 table-responsive pt-2">
+                                    <table class="table table-light table-hover table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th>Maker メーカ</th>
+                                                <th>Count 台数</th>
+                                                <th>Laser Cutting レーザ カットT (mm)</th>
+                                                <th>Punchingポンチ T (mm)</th>
+                                                <th>Tool Stations ツール・ステー ション</th>
+                                                <th>Auto Mat’l Loader / Picker 自動マテリアルローダー・ピッ カー</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Amada LC2012</td>
+                                                <td>1</td>
+                                                <td rowspan="2">軟鋼: 0.5~6.0 <br>ステンレス: 0.5~4.0</td>
+                                                <td>軟鋼: 0.5~6.0 <br>ステンレス: 0.5~4.0</td>
+                                                <td>40</td>
+                                                <td>有</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>Amada
+LC1212</td>
+                                                <td>1</td>
+                                                
+                                                <td>N/A</td>
+                                                <td>N/A</td>
+                                                <td>無</td>
+
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 table-responsive pt-2">
+                                    <table class="table table-light table-hover table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th>Ton トン数</th>
+                                                <th>Count 台数</th>
+                                                <th>Maker, Model 機種・メーカ</th>
+                                                <th>Max Bending Length 最大曲げ長さ(mm)</th>
+                                                <th>Max Stroke Length 最大ストローク (mm)</th>
+                                                
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>50</td>
+                                                <td>1</td>
+                                                <td>Amada, HDS5020NT</td>
+                                                <td>2070</td>
+                                                <td>200</td>
+                                            </tr>
+                                            <tr>
+                                                <td>50</td>
+                                                <td>1</td>
+                                                <td>Amada, HG5020</td>
+                                                <td>2150</td>
+                                                <td>250</td>
+                                            </tr>
+                                            <tr>
+                                                <td>80</td>
+                                                <td>1</td>
+                                                <td>Amada, HD8025NT</td>
+                                                <td>2570</td>
+                                                <td>200</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="5">総計台数: 5</td>
+                                            </tr>
+                                            
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                </div>
+                            </div>
+                        </div>
+                        </Transition>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <hr class="hr">
+                            </div>
+                        </div>
+<!--Sheetmetal Plates -->
+                        <div class="row">
+                            <div class="col-md-12 d-flex justify-content-between case" @click="isSPOpen = showVar(isSPOpen)">
+                                <p class="h4 title ">Sheetmetal Plates </p>
+                                <p v-if="isSPOpen"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
+                                <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
+                                </svg></p>
+                                <p v-else><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                                    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                                </svg></p>
+                            </div>
+                        </div>
+                        <Transition>
+                        <div v-show="isSPOpen">
+                            <div class="row">
+                                <div class="col-md-12 pt-2 table-responsive">
+                                    <table class="table table-light table-hover table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th>Material Types</th>
+                                                <th>Sizes (mm)</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>SUS430</td>
+                                                <td>T0.3, T0.5, T0.8, T1.0, T1.2, T1.5, T2.0, T3.0</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>SUS304</td>
+                                                <td>T0.2, T0.3, T0.4, T0.5, T0.8, T1.0, T1.2, T1.5, T2.0</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>SUS301</td>
+                                                <td>T0.25, T0.3, T0.35, T0.4, T0.5, T0.6</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>SECC</td>
+                                                <td>T0.5, T0.8, T1.0, T1.6, T2.0, T2.3, T3.2</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>SPCC</td>
+                                                <td>T1.0, T1.2, T1.6, T2.0, T2.6, T3.2</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>SUS430</td>
+                                                <td>C1100P 1/4H</td>
+                                                
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                </div>
+                                <div class="col-md-3">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                         </Transition>
+
+                         <div class="row">
+                            <div class="col-md-12">
+                                <hr class="hr">
+                            </div>
+                        </div>
+<!--CNC Lathe Machining -->
+                        <div class="row">
+                            <div class="col-md-12 d-flex justify-content-between case" @click="isCNCOpen = showVar(isCNCOpen)">
+                                <p class="h4 title ">CNC Lathe Machining </p>
+                                <p v-if="isCNCOpen"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
+                                <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
+                                </svg></p>
+                                <p v-else><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                                    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                                </svg></p>
+                            </div>
+                        </div>
+                        <Transition>
+                        <div v-show="isCNCOpen">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p>With our manufacturing systems & process controls, we ensure a high level of quality. Automation features allow our machines to
+run continuously with very little operator intervention.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Precision Shaft 
+/ Pin Part</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Precision Shaft 
+/ Pin Part</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Auto Bar Feeder</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Turret Tool Grinding</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Diameter Measure</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Tapping Measure</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Cutting Tools</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Material Storage</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 pt-2 table-responsive">
+                                    <table class="table table-light table-hover table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th colspan="4">CNC LATHE CNC旋盤</th>
+                                                <th colspan="2">AUTOMATIC BARFEEDER 自動バー・フィーダ</th>
+                                            </tr>
+                                            <tr>
+                                                <th >Brand
+
+機種・メーカ</th>
+                                                <th >Count
+
+台数</th>
+                                                <th>Control Axis
+
+制御軸</th>
+                                                <th>Machining ø
+
+加工ø</th>
+                                                <th>Brand ,Model
+
+機種・メーカ</th>
+                                                <th>Max. Bar Length
+
+最大バー長さ</th>
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Star SR20J</td>
+                                                <td>3</td>
+                                                <td>X1,X2,Y1,Z1,Z2,
+
+C1, C2</td>
+                                                <td>3mm ~ 20mm</td>
+                                                <td>Ikura Seiki, OS20S</td>
+                                                <td>2,500mm</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>Tsugami
+BO125</td>
+                                                <td>2</td>
+                                                <td>X1,X2,Y1,Z1,Z2,
+
+C1, C2</td>
+                                                <td>3mm ~ 16mm</td>
+                                                <td>Fedek, XT-320</td>
+                                                <td>2,500mm</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td colspan="6">総計台数: 5</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                </div>
+
+                                <div class="col-md-3">
+                                    <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                </div>
+                            </div>
+                        </div>
+                        </Transition>
+
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <hr class="hr">
+                            </div>
+                        </div>
+<!--Round Bars -->
+                        <div class="row">
+                            <div class="col-md-12 d-flex justify-content-between case" @click="isRBOpen = showVar(isRBOpen)">
+                                <p class="h4 title ">Round Bars </p>
+                                <p v-if="isRBOpen"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
+                                <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
+                                </svg></p>
+                                <p v-else><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                                    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                                </svg></p>
+                            </div>
+                        </div>
+                        <Transition>
+                        <div v-show="isRBOpen">
+                            <div class="row">
+                                <div class="col-md-12 pt-2 table-responsive">
+                                    <table class="table table-light table-hover table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th>Material Types</th>
+                                                <th>Sizes (mm)</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>SUS416</td>
+                                                <td>Ø4, Ø5, Ø6, Ø8, Ø10, Ø12, Ø14, Ø16</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>SUS303</td>
+                                                <td>Ø3, Ø5, Ø8</td>
+                                                
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-3">
+                                    
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                </div>
+                                <div class="col-md-3">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        </Transition>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <hr class="hr">
+                            </div>
+                        </div>
+<!--Mechanical Parts Assembly -->
+                        <div class="row">
+                            <div class="col-md-12 d-flex justify-content-between case" @click="isMPAOpen = showVar(isMPAOpen)">
+                                <p class="h4 title ">Mechanical Parts Assembly </p>
+                                <p v-if="isMPAOpen"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
+                                <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
+                                </svg></p>
+                                <p v-else><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                                    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                                </svg></p>
+                            </div>
+                        </div>
+                        <Transition>
+                        <div v-show="isMPAOpen">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p>We offer a wide variety of mechanical assembly capabilities that will suit Customer specific project requirements.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Mechanical 
+Assembly Part</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Mechanical 
+Assembly Part</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Welding Setup</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">TIG Welding</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Spot Welding</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Welding Test</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Riveting
+ / Caulking Process</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </Transition>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <hr class="hr">
+                            </div>
+                        </div>
+<!--Inspection & Engineering Services -->
+                        <div class="row">
+                            <div class="col-md-12 d-flex justify-content-between case" @click="isIESOpen = showVar(isIESOpen)">
+                                <p class="h4 title ">Inspection & Engineering Services </p>
+                                <p v-if="isIESOpen"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
+                                <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
+                                </svg></p>
+                                <p v-else><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                                    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                                </svg></p>
+                            </div>
+                        </div>
+                        <Transition>
+                        <div v-show="isIESOpen">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    We are constantly updating our processes and standards to produce high quality products delivered on time. We assure quality of products through the use of advanced measuring instruments. Automatic features allows speed and accuracy of measurement during inspection.
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Digital Length 
+Measurement </p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Digital Length 
+Measurement </p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">RoHS Analyzer</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">CMM 3D Measure</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Image Dimension
+Measurement</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Image Dimension
+Measurement</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Video Measure Scope</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Profile Projector</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 pt-2">
+                                    <hr class="hr">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 pt-2">
+                                    <p>We have skills on different mechatronics assembly process through sequential line assembly. We have a wide range of assembly production from small to big machine assemblies.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Sequence Line 
+Assembly</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Screw Tightening</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">E-Ring Attachment</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Belt Adjustment</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Soldering Process</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Mechatornics Parts
+Assembly</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Mechatornics Parts
+Assembly</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 pt-2">
+                                    <p>We have skills in complex soldering and routing of electronic parts wiring / harnesses. We manage big production capacity and parts inventory accuracy through Sequential Parts Stocking and Set Picking system.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Computerized 
+Adjustment</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Electronic Assy Manual</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Simple to Complex
+Wiring</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Simple to Complex
+Wiring</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    
+                                </div>
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Sequential Parts
+Stocking / Picking</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 pt-2">
+                                    <div class="overlay">
+                                        <img src="../../assets/gayness.jpg" class="img-fluid image">
+                                        <div class="middle">
+                                            <div class="h4"> <p class="h6 text ">Sequential Parts
+Stocking / Picking</p> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                         </Transition>
 
 
 
@@ -859,7 +1906,7 @@ export default {
                     </div>
 
 
-                    <div class="col-md-2">
+                    <div class="col-lg-2">
 
                     </div>
                     
@@ -876,7 +1923,7 @@ export default {
         font-weight: 700;
     }
 
-    .desc{
+    .desc, p{
         color: #0A2060;
     }
 

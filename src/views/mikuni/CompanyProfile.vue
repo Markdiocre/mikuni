@@ -146,10 +146,12 @@ export default {
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-6 pt-2 d-flex align-items-center justify-content-center">
-                            <p class="h4 desc">MTMP is located at Subic Bay Freeport Zone (SBFZ), a region which is centered on Subic Bay, Philippines. It is a special economic zone under the jurisdiction of Subic Bay Metropolitan Authority agency (SBMA), which is under the direct control of the Philippine President after the naval base was restored from the United States (1991).</p>
+                        <div class="col-lg-6 pt-2 d-flex align-items-center justify-content-center">
+                            <p class="h5 desc">MTMPは、スービック湾に位置するスービック湾自由港（SBFZ）というスービック湾首都
+圏庁（SBMA）の管轄下の経済特別区で運営しております。元々米国海軍基地で、1991年米国から復元さ
+れ、フィリピン大統領直轄のSBMAの管轄となりました。<br>MTMP is located at Subic Bay Freeport Zone (SBFZ), a region which is centered on Subic Bay, Philippines. It is a special economic zone under the jurisdiction of Subic Bay Metropolitan Authority agency (SBMA), which is under the direct control of the Philippine President after the naval base was restored from the United States (1991).</p>
                         </div>
-                        <div class="col-md-6 pt-2">
+                        <div class="col-lg-6 pt-2">
                             <div class="google-maps">
                                 <div class="mapouter">
                                     <div class="gmap_canvas">
@@ -160,7 +162,7 @@ export default {
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-6 pt-2">
+                        <div class="col-lg-6 pt-2">
                             <div class="overlay">
                             <img src="../../assets/gayness.jpg" class="img-fluid image" alt="..." style="height: 360px;">
                             <div class="middle">
@@ -187,7 +189,7 @@ export default {
                             </div>
                        </div>
                         </div>
-                        <div class="col-md-6 pt-2">
+                        <div class="col-lg-6 pt-2">
                             <div class="overlay">
                             <img src="../../assets/gayness.jpg" class="img-fluid image" alt="..." style="height: 360px;">
                             <div class="middle">
@@ -226,7 +228,8 @@ export default {
                         <div class="col-lg-9 d-flex align-items-center pt-2">
                             <div class="row">
                                 <p class="h4 message"><b>Kenichi Kiga,</b> President</p>
-                                <p class="h5 mes-desc">Based on internal and external trust, MTMP provides customers with outstanding
+                                <p class="h5 mes-desc">MTMPは社内外の信頼を基盤とし、不断の努力と革新によって、お客様に卓越した価
+値を提供します。<br>Based on internal and external trust, MTMP provides customers with outstanding
 value through constant efforts and innovation.</p>
                             </div>
                         </div>
@@ -238,7 +241,9 @@ value through constant efforts and innovation.</p>
                         <div class="col-lg-9 d-flex align-items-center pt-2">
                             <div class="row">
                                 <p class="h4 message"><b>Tatsuya Ogiri,</b> Vice President</p>
-                                <p class="h5 mes-desc">MTMP provides customers one-stop assembly products and individual parts based on the processed parts manufacturing technology, mechatronics assembly technology, and quality control capabilities cultivated over 20 years.</p>
+                                <p class="h5 mes-desc">MTMPは、20年以上に渡って培われた加工部品製造技術、メカトロニク
+ス組立技術、品質管理能力に基づいたワンストップ組立製品と個別部
+品をお客様に提供します。<br>MTMP provides customers one-stop assembly products and individual parts based on the processed parts manufacturing technology, mechatronics assembly technology, and quality control capabilities cultivated over 20 years.</p>
                             </div>
                         </div>
                     </div>
@@ -249,7 +254,11 @@ value through constant efforts and innovation.</p>
                         <div class="col-lg-9 d-flex align-items-center pt-2">
                             <div class="row">
                                 <p class="h4 message"><b>Eugene Kalaw,</b> General Manager</p>
-                                <p class="h5 mes-desc">MTMP values our people because of their dedication, fine talents, proficiency and adaptability to technology. By this, we are able to increase the motivation and career perspective of our Members.
+                                <p class="h5 mes-desc">MTMPは、当社全社員の情熱のうえ、才能、能力、ならびに、技
+術に対する順応性を大事にしております。それによって、我が社
+員のモチベーションを上昇させ、キャリア展望の伸展に繋がれま
+す。弊社は、社員が最も貴重な財産だとしており、当社事業にお
+ける核そのものです。<br>MTMP values our people because of their dedication, fine talents, proficiency and adaptability to technology. By this, we are able to increase the motivation and career perspective of our Members.
                                 <br><br>
 We consider our people as our greatest asset and the heart and soul of our operation.</p>
                             </div>
