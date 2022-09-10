@@ -42,7 +42,7 @@ export default {
                     </div>
                     <div class="row pt-2">
                         <div class="col-md-12">
-                            <img src="../../assets/gayness.jpg" class="img-fluid image" style="height: 490px;">
+                            <img src="../../assets/cp/cover.png" class="img-fluid image" style="height: 490px;">
                         </div>
                     </div>
                     <div class="row pt-2">
@@ -164,7 +164,7 @@ export default {
                     <div class="row">
                         <div class="col-lg-6 pt-2">
                             <div class="overlay">
-                            <img src="../../assets/gayness.jpg" class="img-fluid image" alt="..." style="height: 360px;">
+                            <img src="../../assets/cp/build12.png" class="img-fluid image" alt="..." style="height: 360px;">
                             <div class="middle">
                                 <div class="text container-fluid" >
                                     <div class="row">
@@ -191,7 +191,7 @@ export default {
                         </div>
                         <div class="col-lg-6 pt-2">
                             <div class="overlay">
-                            <img src="../../assets/gayness.jpg" class="img-fluid image" alt="..." style="height: 360px;">
+                            <img src="../../assets/cp/building3.png" class="img-fluid image" alt="..." style="height: 360px;">
                             <div class="middle">
                                 <div class="text container-fluid" >
                                     <div class="row">
@@ -223,7 +223,7 @@ export default {
                     </div>
                     <div class="row">
                         <div class="col-lg-3 d-flex align-items-center justify-content-center pt-2">
-                            <img src="../../assets/gayness.jpg" class="img-fluid image" style="height: 296px; width: 296px;">
+                            <img src="../../assets/cp/pres.png" class="img-fluid image" style="height: 296px; width: 296px;">
                         </div>
                         <div class="col-lg-9 d-flex align-items-center pt-2">
                             <div class="row">
@@ -236,7 +236,7 @@ value through constant efforts and innovation.</p>
                     </div>
                     <div class="row">
                         <div class="col-lg-3 d-flex align-items-center justify-content-center pt-2">
-                            <img src="../../assets/gayness.jpg" class="img-fluid image" style="height: 296px; width: 296px;">
+                            <img src="../../assets/cp/vp.png" class="img-fluid image" style="height: 296px; width: 296px;">
                         </div>
                         <div class="col-lg-9 d-flex align-items-center pt-2">
                             <div class="row">
@@ -249,7 +249,7 @@ value through constant efforts and innovation.</p>
                     </div>
                     <div class="row">
                         <div class="col-lg-3 d-flex align-items-center justify-content-center pt-2">
-                            <img src="../../assets/gayness.jpg" class="img-fluid image" style="height: 296px; width: 296px;">
+                            <img src="../../assets/cp/manager.png" class="img-fluid image" style="height: 296px; width: 296px;">
                         </div>
                         <div class="col-lg-9 d-flex align-items-center pt-2">
                             <div class="row">
@@ -276,12 +276,12 @@ We consider our people as our greatest asset and the heart and soul of our opera
                     </div>
                     <div class="row pt-2">
                         <div class="col-md-12">
-                            <img src="../../assets/gayness.jpg" class="img-fluid image" style="height: 823px;">
+                            <img src="../../assets/cp/certs.png" class="img-fluid image" style="height: 823px;">
                         </div>
                     </div>
                     <div class="row pt-2">
                         <div class="col-md-12">
-                            <img src="../../assets/gayness.jpg" class="img-fluid image" style="height: 271px;">
+                            <img src="../../assets/cp/certs1.png" class="img-fluid image" style="height: 271px;">
                         </div>
                     </div>
                     <div class="row py-2">

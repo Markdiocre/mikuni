@@ -14,8 +14,12 @@ export default {
             router.push({name: 'mikuniCompanyProfile'})
         }
 
+        function navToMVQ(){
+            router.push({name: 'mikuniMvq'})
+        }
+
         return{
-            navToCorporate
+            navToCorporate, navToMVQ
         }
     },
 }
@@ -89,7 +93,7 @@ Philippines Corporation）と社名が変更
                                 <button class="nav-button h5" @click="navToCorporate">Corporate Profile</button>
                             </div>
                             <div class="col-md-6 pt-2">
-                                <button class="nav-button h5">Mission, Vision, and Quality Policy</button>
+                                <button class="nav-button h5" @click="navToMVQ">Mission, Vision, and Quality Policy</button>
                             </div>
                         </div>
                     </div>

@@ -18,7 +18,7 @@
                             <li><router-link class="dropdown-item navbar-color" :to="{name: 'mikuniMvq'}">Mission, Vision, Quality Policy</router-link></li>
                             <li><router-link class="dropdown-item navbar-color" :to="{name: 'mikuniHistory'}">History</router-link></li>
                             <li><router-link class="dropdown-item navbar-color" :to="{name: 'mikuniCompanyProfile'}">Corporate Profile</router-link></li>
-                            <li><router-link class="dropdown-item navbar-color" :to="{name: 'mikuniContact'}">RTI</router-link></li>
+                            <!-- <li><router-link class="dropdown-item navbar-color" :to="{name: 'mikuniContact'}">RTI</router-link></li> -->
                         </ul>
                     </li>
                     <li class="nav-item">
