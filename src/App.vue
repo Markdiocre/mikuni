@@ -15,4 +15,18 @@
     font-family: var(--p-mikuni);
   }
 
+  @keyframes onLoad{
+      0% {
+          color: #2F3E46;
+          margin-bottom: -80px;
+          opacity: 0;
+      }
+
+      80%{
+          color: #2F3E46;
+          margin-bottom: -80px;
+          opacity: 0;
+      }
+  }
+
 </style>

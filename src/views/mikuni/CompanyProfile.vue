@@ -308,10 +308,16 @@ We consider our people as our greatest asset and the heart and soul of our opera
         color: #0A2060;
         font-family: var(--p-mikuni);
         font-weight: 700;
+        animation-name: onLoad;
+        animation-duration: 0.5s;
+        animation-timing-function: ease;
     }
 
     .image{
         width: 100%;
+        animation-name: onLoad;
+        animation-duration: 0.5s;
+        animation-timing-function: ease;
     }
 
     .jp{
@@ -320,6 +326,9 @@ We consider our people as our greatest asset and the heart and soul of our opera
 
     table tbody tr td, table tbody tr th{
         color: #0A2060;
+        animation-name: onLoad;
+        animation-duration: 0.5s;
+        animation-timing-function: ease;
     }
 
     .table-bordered{

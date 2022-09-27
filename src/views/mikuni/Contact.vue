@@ -67,6 +67,9 @@ export default {
 <style scoped>
     .box{
         border: 3px solid #0A2060;
+        animation-name: onLoad;
+        animation-duration: 0.5s;
+        animation-timing-function: ease;
     }
 
     .g{
@@ -76,6 +79,9 @@ export default {
     .title{
         font-weight: 700;
         color:#0A2060;
+        animation-name: onLoad;
+        animation-duration: 0.5s;
+        animation-timing-function: ease;
     }
 
     .try{
@@ -85,6 +91,9 @@ export default {
     #gmap_canvas{
         width: 100%;
         height: 100%;
+        animation-name: onLoad;
+        animation-duration: 0.5s;
+        animation-timing-function: ease;
     }
 
     #entry{

@@ -110,12 +110,16 @@ Philippines Corporation）と社名が変更
 <style scoped>
     #content{
         height: 100vh;
+        
     }
 
     .title{
         color: #0A2060;
         font-family: var(--p-mikuni);
         font-weight: 700;
+        animation-name: onLoad;
+        animation-duration: 1s;
+        animation-timing-function: ease;
     }
 
     .timeline::before{
@@ -127,14 +131,23 @@ Philippines Corporation）と社名が変更
         width: 16px;
         height: 16px;
         margin-right: 32px;
+        animation-name: onLoad;
+        animation-duration: 1s;
+        animation-timing-function: ease;
     }
     
     .timeline{
         font-weight: 700;
+        animation-name: onLoad;
+        animation-duration: 1s;
+        animation-timing-function: ease;
     }
 
     .timeline-desc{
         margin-left: 48px;
+        animation-name: onLoad;
+        animation-duration: 1s;
+        animation-timing-function: ease;
     }
 
     .nav-button{

@@ -273,6 +273,9 @@ export default {
         padding-left: 100px;
         padding-right: 100px;
         color: #0A2060;
+        animation-name: onLoad;
+        animation-duration: 1s;
+        animation-timing-function: ease;
     }
 
     .bt{
@@ -306,12 +309,12 @@ export default {
         object-fit: cover !important;
     }
 
-    .overlay:hover .image {
+    .overlay .image {
         opacity: 0.2;
         background-color: black;
     }
 
-    .overlay:hover .middle {
+    .overlay .middle {
         opacity: 1;
     }
 

@@ -2031,6 +2031,9 @@ Stocking / Picking</p> </div>
         color: #0A2060;
         font-family: var(--p-mikuni);
         font-weight: 700;
+        animation-name: onLoad;
+        animation-duration: 0.5s;
+        animation-timing-function: ease;
     }
 
 
@@ -2042,10 +2045,16 @@ Stocking / Picking</p> </div>
         background-color: #0A2060;
         color: white;
         height: 100%;
+        animation-name: onLoad;
+        animation-duration: 0.5s;
+        animation-timing-function: ease;
     }
 
     .hr{
         border-top: 3px solid #0A2060 !important;
+        animation-name: onLoad;
+        animation-duration: 0.5s;
+        animation-timing-function: ease;
     }
 
     .case:hover{

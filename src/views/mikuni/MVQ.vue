@@ -75,6 +75,9 @@ Recognizing quality in all we do philosophy at all levels of organization throug
     .title{
         color: #0A2060;
         font-weight: 700;
+        animation-name: onLoad;
+        animation-duration: 1s;
+        animation-timing-function: ease;
     }
 
     .nav-button{
@@ -85,6 +88,12 @@ Recognizing quality in all we do philosophy at all levels of organization throug
         font-family: var(--p-mikuni);
         font-weight: 700;
         border: 0px;
+    }
+
+    .h4{
+        animation-name: onLoad;
+        animation-duration: 1s;
+        animation-timing-function: ease;
     }
 
     .nav-button:hover{
