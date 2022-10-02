@@ -1,6 +1,6 @@
 <script>
-import MikuniNavbar from '../../components/mikuniNavbar.vue';
-import MikuniFooter from '../../components/mikuniFooter.vue';
+import MikuniNavbar from '../components/mikuniNavbar.vue';
+import MikuniFooter from '../components/mikuniFooter.vue';
 import { useRouter } from 'vue-router';
 export default {
     components:{

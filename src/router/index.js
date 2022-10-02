@@ -1,11 +1,12 @@
 import { createRouter, createWebHistory } from "vue-router";
 
-import Home from "@/views/mikuni/Home.vue"
-const companyProfile = () => import("../views/mikuni/CompanyProfile.vue")
-const companyHistory = () => import("../views/mikuni/History.vue")
-const mvq = () => import("../views/mikuni/MVQ.vue")
-const contact = () => import("../views/mikuni/Contact.vue")
-const PaS = () => import("../views/mikuni/PaS.vue")
+import Home from "@/views/Home.vue"
+const companyProfile = () => import("../views/CompanyProfile.vue")
+const companyHistory = () => import("../views/History.vue")
+const mvq = () => import("../views/MVQ.vue")
+const contact = () => import("../views/Contact.vue")
+const PaS = () => import("../views/PaS.vue")
+const Rti = () => import("../views/rti.vue")
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -13,37 +14,42 @@ const router = createRouter({
     {
       path: "/",
       name: "home",
-      redirect: {name: "mikuniHome"}
+      redirect: { name: "mikuniHome" }
     },
     {
-      path: "/mikuni/home",
+      path: "/home",
       name: "mikuniHome",
       component: Home
     },
     {
-      path: "/mikuni/company_profile",
+      path: "/company_profile",
       name: "mikuniCompanyProfile",
       component: companyProfile
     },
     {
-      path: "/mikuni/history",
+      path: "/history",
       name: "mikuniHistory",
       component: companyHistory
     },
     {
-      path: "/mikuni/mvq",
+      path: "/mvq",
       name: "mikuniMvq",
       component: mvq
     },
     {
-      path: "/mikuni/contact",
+      path: "/contact",
       name: "mikuniContact",
       component: contact
     },
     {
-      path: "/mikuni/product_and_services",
+      path: "/product_and_services",
       name: "mikuniPaS",
       component: PaS
+    },
+    {
+      path: "/rti",
+      name: "mikuniRTI",
+      component: Rti
     }
   ],
   scrollBehavior() {

@@ -1,5 +1,5 @@
 <script>
-import MikuniNavbar from '../../components/mikuniNavbar.vue';
+import MikuniNavbar from '../components/mikuniNavbar.vue';
 export default {
     components:{
     MikuniNavbar

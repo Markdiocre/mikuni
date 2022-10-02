@@ -1,6 +1,6 @@
 <script>
-import mikuniNavbar from '../../components/mikuniNavbar.vue'
-import mikuniFooter from '../../components/mikuniFooter.vue'
+import mikuniNavbar from '../components/mikuniNavbar.vue'
+import mikuniFooter from '../components/mikuniFooter.vue'
 import { useRouter } from 'vue-router'
 
 export default {
@@ -19,9 +19,13 @@ export default {
             router.push({name: 'mikuniMvq'})
         }
 
+        function navToPAS(){
+            router.push({name: 'mikuniPaS'})
+        }
+
 
         return{
-            navToCorporate, navToHistory, navToMvq
+            navToCorporate, navToHistory, navToMvq, navToPAS
         }
     },
     components: { mikuniNavbar, mikuniFooter}
@@ -54,7 +58,7 @@ export default {
                 <div class="row">
                     <div class="col-md-6  pt-2">
                        <div class="overlay">
-                            <img src="../../assets/home/td.png" class="img-fluid image" alt="..." style="height: 490px;">
+                            <img src="../assets/home/td.png" class="img-fluid image" alt="..." style="height: 490px;">
                             <div class="middle">
                                 <svg
    width="66.145828mm"
@@ -94,7 +98,7 @@ export default {
                     </div>
                     <div class="col-md-6  pt-2">
                         <div class="overlay">
-                            <img src="../../assets/home/pm.jpg" class="img-fluid image" alt="..." style="height: 490px;">
+                            <img src="../assets/home/pm.jpg" class="img-fluid image" alt="..." style="height: 490px;">
                             <div class="middle">
                                 <svg
    width="66.145782mm"
@@ -133,7 +137,7 @@ export default {
                 <div class="row">
                     <div class="col-md-6  pt-2">
                        <div class="overlay">
-                            <img src="../../assets/home/pb.png" class="img-fluid image" alt="..." style="height: 490px;">
+                            <img src="../assets/home/pb.png" class="img-fluid image" alt="..." style="height: 490px;">
                             <div class="middle">
                                 <svg
    width="66.145828mm"
@@ -170,7 +174,7 @@ export default {
                     </div>
                     <div class="col-md-6  pt-2">
                         <div class="overlay">
-                            <img src="../../assets/home/am.png" class="img-fluid image" alt="..." style="height: 490px;">
+                            <img src="../assets/home/am.png" class="img-fluid image" alt="..." style="height: 490px;">
                             <div class="middle">
                                 <svg
    width="66.145821mm"
@@ -206,18 +210,17 @@ export default {
                        </div>
                     </div>
                 </div>
-                <!-- <div class="row">
+                <div class="row">
                     <div class="col-md-12  pt-2">
                        <div class="overlay">
-                            <img src="../../assets/gayness.jpg" class="img-fluid image" style="height: 490px;">
+                            <img src="../assets/rti/image0.jpeg" class="img-fluid image" style="height: 490px;">
                             <div class="middle">
-                                <img src="../../assets/gayness.jpg" class="img-fluid" width="250px" height="250px">
                                 <div class="text" ><p class="h4">Robotic-Designed Technology Inc.</p> </div>
-                                <div><button class="btn btn-outline-light but btn-lg">Learn More</button></div>
+                                <div><router-link class="btn btn-outline-light but btn-lg" :to="{name: 'mikuniRTI'}">Learn More</router-link></div>
                             </div>
                        </div>
                     </div>
-                </div> -->
+                </div>
             
             </div>
             <div class="col-md-2">
@@ -246,7 +249,7 @@ export default {
                         <button class="nav-button h6"  @click="navToCorporate">Corporate Profile</button>
                     </div>
                     <div class="col-md-3 pt-2">
-                        <button class="nav-button h6">Products and Services</button>
+                        <button class="nav-button h6" @click="navToPAS">Products and Services</button>
                     </div>
                 </div>
             </div>
