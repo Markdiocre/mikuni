@@ -5,8 +5,8 @@ import MikuniNavbar from '../components/mikuniNavbar.vue';
 export default {
 
     components: {
-    MikuniNavbar, MikuniFooter
-}
+        MikuniNavbar, MikuniFooter
+    }
 
 }
 
@@ -14,9 +14,9 @@ export default {
 </script>
 
 <template>
-    <MikuniNavbar/>
-    <div class="pt-5">
-        <div class="pt-3">
+    <MikuniNavbar />
+    <div class="container-fluid pt-5">
+        <div class="container-fluid pt-3">
             <div class="row">
                 <div class="col-md-2">
 
@@ -28,7 +28,8 @@ export default {
                         </div>
                     </div>
                     <div class="row pt-2">
-                        <p class="h4">RTI have available machines that can be used for painting and printing of Molding (MD) parts.
+                        <p class="h4">RTI have available machines that can be used for painting and printing of Molding
+                            (MD) parts.
                         </p>
                     </div>
                     <div class="row pt-2">
@@ -60,28 +61,28 @@ export default {
 
         </div>
     </div>
-    <MikuniFooter/>
+    <MikuniFooter />
 </template>
 
 <style scoped>
-    .title{
-        color: #0A2060;
-        font-family: var(--p-mikuni);
-        font-weight: 700;
-        animation-name: onLoad;
-        animation-duration: 0.5s;
-        animation-timing-function: ease;
-    }
+.title {
+    color: #0A2060;
+    font-family: var(--p-mikuni);
+    font-weight: 700;
+    animation-name: onLoad;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+}
 
-    .image{
-        width: 100%;
-        animation-name: onLoad;
-        animation-duration: 0.5s;
-        animation-timing-function: ease;
-    }
+.image {
+    /* width: 100%; */
+    animation-name: onLoad;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+}
 
-    p{
-        color: #0A2060;
-        font-weight: 700;
-    }
+p {
+    color: #0A2060;
+    font-weight: 700;
+}
 </style>

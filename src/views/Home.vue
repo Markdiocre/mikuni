@@ -215,7 +215,8 @@ export default {
                        <div class="overlay">
                             <img src="../assets/rti/image0.jpeg" class="img-fluid image" style="height: 490px;">
                             <div class="middle">
-                                <div class="text" ><p class="h4">Robotic-Designed Technology Inc.</p> </div>
+                                <img src="../assets/rti/rtiLogo.png" class="img-fluid" />
+                                <div class="text"><p class="h4">Robotic-Designed Technology Inc.</p> </div>
                                 <div><router-link class="btn btn-outline-light but btn-lg" :to="{name: 'mikuniRTI'}">Learn More</router-link></div>
                             </div>
                        </div>

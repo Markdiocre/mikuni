@@ -27,7 +27,7 @@
                         <p class="h5 text title-text text-align-center">SALES OFFICE</p>
                     </div>
                     <div class="row ">
-                        <p class="h5 text text-align-center">(047) 252 1490</p>
+                        <p class="h5 text text-align-center">(047) 252 - 5221</p>
                     </div>
                 </div>
                 <div class="col-md-2 pt-2">
@@ -35,7 +35,7 @@
                         <p class="h5 text title-text text-align-center">PURCHASING OFFICE</p>
                     </div>
                     <div class="row ">
-                        <p class="h5 text text-align-center">(047) 252 1490</p>
+                        <p class="h5 text text-align-center">(047) 252 - 9480</p>
                     </div>
                 </div>
                 <div class="col-md-2 pt-2">
@@ -43,7 +43,7 @@
                         <p class="h5 text title-text text-align-center">FINANCE OFFICE</p>
                     </div>
                     <div class="row ">
-                        <p class="h5 text text-align-center">(047) 252 1490</p>
+                        <p class="h5 text text-align-center">(047) 252 - 5220</p>
                     </div>
                 </div>
                 <div class="col-md-2 pt-2">
@@ -51,7 +51,7 @@
                         <p class="h5 text title-text text-align-center">QUALITY OFFICE</p>
                     </div>
                     <div class="row ">
-                        <p class="h5 text text-align-center">(047) 252 1490</p>
+                        <p class="h5 text text-align-center">(047) 252 - 7049</p>
                     </div>
                 </div>
                 
