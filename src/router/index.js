@@ -6,7 +6,8 @@ const companyHistory = () => import("../views/History.vue")
 const mvq = () => import("../views/MVQ.vue")
 const contact = () => import("../views/Contact.vue")
 const PaS = () => import("../views/PaS.vue")
-const Rti = () => import("../views/rti.vue")
+const Rti = () => import("../views/rtiPaS.vue")
+const RtiMVQ = () => import("../views/rtiMVQ.vue")
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -47,9 +48,14 @@ const router = createRouter({
       component: PaS
     },
     {
-      path: "/rti",
+      path: "/rti/PAS",
       name: "mikuniRTI",
       component: Rti
+    },
+    {
+      path: "/rti/MVQ",
+      name: "RtiMVQ",
+      component: RtiMVQ
     }
   ],
   scrollBehavior() {

@@ -211,7 +211,10 @@ export default {
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-12  pt-2">
+                    <div class="col-md-3">
+
+                    </div>
+                    <div class="col-md-6  pt-2">
                        <div class="overlay">
                             <img src="../assets/rti/image0.jpeg" class="img-fluid image" style="height: 490px;">
                             <div class="middle">
@@ -220,6 +223,9 @@ export default {
                                 <div><router-link class="btn btn-outline-light but btn-lg" :to="{name: 'mikuniRTI'}">Learn More</router-link></div>
                             </div>
                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        
                     </div>
                 </div>
             
