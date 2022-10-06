@@ -2491,6 +2491,17 @@ export default {
                     <Transition>
                         <div v-show="isRTIOpen">
                             <div class="row">
+                                <p class="text-center h5">Robotic-Designed Technology, Inc. (“RTI” for brevity) .RTI is primarily engaged in the
+                            business of manufacturing, production, sub-contracting, export, import, printing, coating,
+                            purchase, sale, and distribution of any form of goods or merchandise which may be the object
+                            of commerce such as but not limited to chemicals, paints, industrial or medical facemask and
+                            other medical equipment and supplies and in furtherance thereof, provide and/or render after
+                            sales service to industrial, medical and commercial facilities, plants or buildings.
+                            <br /><br />
+                            Please let us know what your company's needs are, and we'll do our best to find them.<br /> <span class="text-end">Thank
+                            you very much!</span></p>
+                            </div>
+                            <div class="row">
                                 <div class="col-md-12  pt-2">
                                     <div class="overlay">
                                         <img src="../assets/rti/logo.png" class="img-fluid image" style="height: 490px;">
@@ -2635,14 +2646,5 @@ hr {
     border-top: 3px solid #0A2060 !important;
 }
 
-/**Transitions */
-.v-enter-active,
-.v-leave-active {
-    transition: opacity 0.5s ease;
-}
 
-.v-enter-from,
-.v-leave-to {
-    opacity: 0;
-}
 </style>

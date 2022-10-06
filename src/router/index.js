@@ -48,7 +48,7 @@ const router = createRouter({
       component: PaS
     },
     {
-      path: "/rti/PAS",
+      path: "/rti/Product_and_services",
       name: "mikuniRTI",
       component: Rti
     },

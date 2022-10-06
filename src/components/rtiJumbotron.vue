@@ -39,7 +39,7 @@ export default {
                 </div>
                 <div class="row ">
                     <div class="col-md-6">
-                        <p class="h5 text-center">(047) 252 - 7049</p>
+                        <p class="h5 text-center">(047) 252 - 5820</p>
                     </div>
                     <div class="col-md-6">
                         <p class="h5 text-center">(047) 252 - 1493</p>
