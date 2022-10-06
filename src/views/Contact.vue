@@ -104,8 +104,6 @@ export default {
         font-family: var(--p-mikuni);
         font-weight: 700;
         text-align: center;
-        padding-left: 100px;
-        padding-right: 100px;
         color: #0A2060;
     }
 

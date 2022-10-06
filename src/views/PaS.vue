@@ -19,13 +19,14 @@ export default {
         const isPCBOpen = ref(false)
         const isMTMPOpen = ref(false)
         const isFTOpen = ref(false)
+        const isRTIOpen = ref(false)
 
         function showVar(valueHere) {
             return valueHere = !valueHere
         }
 
         return {
-            isDMOpen, showVar, isToolOpen, isInjectionOpen, isResin, isPSOpen, isLTOpen, isSPOpen, isCNCOpen, isRBOpen, isMPAOpen, isIESOpen, isPCBOpen, isMTMPOpen, isFTOpen
+            isRTIOpen, isDMOpen, showVar, isToolOpen, isInjectionOpen, isResin, isPSOpen, isLTOpen, isSPOpen, isCNCOpen, isRBOpen, isMPAOpen, isIESOpen, isPCBOpen, isMTMPOpen, isFTOpen
         }
     },
     components: { MikuniNavbar, MikuniFooter }
@@ -263,8 +264,7 @@ export default {
                                 </div>
                                 <div class="col-md-3 pt-2">
                                     <div class="overlay">
-                                        <img src="../assets/pas/die_manufacturing/mold_die.png"
-                                            class="img-fluid image">
+                                        <img src="../assets/pas/die_manufacturing/mold_die.png" class="img-fluid image">
                                         <div class="middle">
                                             <div class="h4">
                                                 <p class="h6 text ">Mold Die</p>
@@ -297,8 +297,7 @@ export default {
                             <div class="row">
                                 <div class="col-md-3 pt-2">
                                     <div class="overlay">
-                                        <img src="../assets/pas/die_manufacturing/wire_edm.png"
-                                            class="img-fluid image">
+                                        <img src="../assets/pas/die_manufacturing/wire_edm.png" class="img-fluid image">
                                         <div class="middle">
                                             <div class="h4">
                                                 <p class="h6 text ">Wire EDM</p>
@@ -970,8 +969,7 @@ export default {
                                 </div>
                                 <div class="col-md-3 pt-2">
                                     <div class="overlay">
-                                        <img src="../assets/pas/press_stamping/quick_die.png"
-                                            class="img-fluid image">
+                                        <img src="../assets/pas/press_stamping/quick_die.png" class="img-fluid image">
                                         <div class="middle">
                                             <div class="h4">
                                                 <p class="h6 text ">Quick Die Change System</p>
@@ -981,8 +979,7 @@ export default {
                                 </div>
                                 <div class="col-md-3 pt-2">
                                     <div class="overlay">
-                                        <img src="../assets/pas/press_stamping/quick_die1.png"
-                                            class="img-fluid image">
+                                        <img src="../assets/pas/press_stamping/quick_die1.png" class="img-fluid image">
                                         <div class="middle">
                                             <div class="h4">
                                                 <p class="h6 text ">Quick Die Change System</p>
@@ -994,8 +991,7 @@ export default {
                             <div class="row">
                                 <div class="col-md-3 pt-2">
                                     <div class="overlay">
-                                        <img src="../assets/pas/press_stamping/auto_clamp.jpg"
-                                            class="img-fluid image">
+                                        <img src="../assets/pas/press_stamping/auto_clamp.jpg" class="img-fluid image">
                                         <div class="middle">
                                             <div class="h4">
                                                 <p class="h6 text ">Auto Clamp Tech</p>
@@ -1027,8 +1023,7 @@ export default {
                                 </div>
                                 <div class="col-md-3 pt-2">
                                     <div class="overlay">
-                                        <img src="../assets/pas/press_stamping/die_storage.jpg"
-                                            class="img-fluid image">
+                                        <img src="../assets/pas/press_stamping/die_storage.jpg" class="img-fluid image">
                                         <div class="middle">
                                             <div class="h4">
                                                 <p class="h6 text ">Die Storage</p>
@@ -1195,8 +1190,7 @@ export default {
                                 </div>
                                 <div class="col-md-3 pt-2">
                                     <div class="overlay">
-                                        <img src="../assets/pas/laser/laser_turret_part1.jpg"
-                                            class="img-fluid image">
+                                        <img src="../assets/pas/laser/laser_turret_part1.jpg" class="img-fluid image">
                                         <div class="middle">
                                             <div class="h4">
                                                 <p class="h6 text ">Laser Turret Part</p>
@@ -1816,8 +1810,7 @@ export default {
                                 </div>
                                 <div class="col-md-4 pt-2">
                                     <div class="overlay">
-                                        <img src="../assets/pas/mechanical_parts/riveting.png"
-                                            class="img-fluid image">
+                                        <img src="../assets/pas/mechanical_parts/riveting.png" class="img-fluid image">
                                         <div class="middle">
                                             <div class="h4">
                                                 <p class="h6 text ">Riveting
@@ -1911,8 +1904,7 @@ export default {
                             <div class="row">
                                 <div class="col-md-3 pt-2">
                                     <div class="overlay">
-                                        <img src="../assets/pas/inspection/image_measure.jpg"
-                                            class="img-fluid image">
+                                        <img src="../assets/pas/inspection/image_measure.jpg" class="img-fluid image">
                                         <div class="middle">
                                             <div class="h4">
                                                 <p class="h6 text ">Image Dimension
@@ -1923,8 +1915,7 @@ export default {
                                 </div>
                                 <div class="col-md-3 pt-2">
                                     <div class="overlay">
-                                        <img src="../assets/pas/inspection/image_measure1.png"
-                                            class="img-fluid image">
+                                        <img src="../assets/pas/inspection/image_measure1.png" class="img-fluid image">
                                         <div class="middle">
                                             <div class="h4">
                                                 <p class="h6 text ">Image Dimension
@@ -1935,8 +1926,7 @@ export default {
                                 </div>
                                 <div class="col-md-3 pt-2">
                                     <div class="overlay">
-                                        <img src="../assets/pas/inspection/video_measure.jpg"
-                                            class="img-fluid image">
+                                        <img src="../assets/pas/inspection/video_measure.jpg" class="img-fluid image">
                                         <div class="middle">
                                             <div class="h4">
                                                 <p class="h6 text ">Video Measure Scope</p>
@@ -2005,8 +1995,7 @@ export default {
                                 </div>
                                 <div class="col-md-3 pt-2">
                                     <div class="overlay">
-                                        <img src="../assets/pas/inspection/belt_adjustment.png"
-                                            class="img-fluid image">
+                                        <img src="../assets/pas/inspection/belt_adjustment.png" class="img-fluid image">
                                         <div class="middle">
                                             <div class="h4">
                                                 <p class="h6 text ">Belt Adjustment</p>
@@ -2173,7 +2162,8 @@ export default {
                         <div v-show="isFTOpen">
                             <div class="row">
                                 <div class="col-md-12 pt-2">
-                                    <p>We assure good quality and functionality of product prior to shipment by performing function test.</p>
+                                    <p>We assure good quality and functionality of product prior to shipment by
+                                        performing function test.</p>
                                 </div>
                             </div>
                             <div class="row">
@@ -2183,19 +2173,20 @@ export default {
                                             class="img-fluid image">
                                         <div class="middle">
                                             <div class="h4">
-                                                <p class="h6 text ">Electrical Adjustment Test 
-(Checking of Electronic Component Functionality )</p>
+                                                <p class="h6 text ">Electrical Adjustment Test
+                                                    (Checking of Electronic Component Functionality )</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-4 pt-2">
                                     <div class="overlay">
-                                        <img src="../assets/pas/function_test/unit_function_test.png" class="img-fluid image">
+                                        <img src="../assets/pas/function_test/unit_function_test.png"
+                                            class="img-fluid image">
                                         <div class="middle">
                                             <div class="h4">
-                                                <p class="h6 text ">Unit Function Test  
-(Overall Unit Functionality Checking)</p>
+                                                <p class="h6 text ">Unit Function Test
+                                                    (Overall Unit Functionality Checking)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -2207,7 +2198,7 @@ export default {
                                         <div class="middle">
                                             <div class="h4">
                                                 <p class="h6 text ">Machine Function Test on
- Bill Deposit Operation</p>
+                                                    Bill Deposit Operation</p>
                                             </div>
                                         </div>
                                     </div>
@@ -2215,11 +2206,12 @@ export default {
                             </div>
                             <div class="row">
                                 <div class="col-md-3 pt-2">
-                                    
+
                                 </div>
                                 <div class="col-md-3 pt-2">
                                     <div class="overlay">
-                                        <img src="../assets/pas/function_test/receipt_issuance.png" class="img-fluid image">
+                                        <img src="../assets/pas/function_test/receipt_issuance.png"
+                                            class="img-fluid image">
                                         <div class="middle">
                                             <div class="h4">
                                                 <p class="h6 text ">Receipt Issuance and Card Reader Function Test</p>
@@ -2271,26 +2263,26 @@ export default {
                         <div v-show="isPCBOpen">
                             <div class="row">
                                 <div class="col-md-12 pt-2">
-                                    <p>We have the skill to do PCB Assembly from complex soldering, PWB printing, mounting and we ensure quality with the use of board image inspection system (AOI).</p>
+                                    <p>We have the skill to do PCB Assembly from complex soldering, PWB printing,
+                                        mounting and we ensure quality with the use of board image inspection system
+                                        (AOI).</p>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-3 pt-2">
                                     <div class="overlay">
-                                        <img src="../assets/pas/pcb/automatic_flow.png"
-                                            class="img-fluid image">
+                                        <img src="../assets/pas/pcb/automatic_flow.png" class="img-fluid image">
                                         <div class="middle">
                                             <div class="h4">
-                                                <p class="h6 text ">Automatic Flow Soldering 
-Equipment</p>
+                                                <p class="h6 text ">Automatic Flow Soldering
+                                                    Equipment</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-3 pt-2">
                                     <div class="overlay">
-                                        <img src="../assets/pas/pcb/visual_inspection.png"
-                                            class="img-fluid image">
+                                        <img src="../assets/pas/pcb/visual_inspection.png" class="img-fluid image">
                                         <div class="middle">
                                             <div class="h4">
                                                 <p class="h6 text ">Visual inspection</p>
@@ -2300,8 +2292,7 @@ Equipment</p>
                                 </div>
                                 <div class="col-md-3 pt-2">
                                     <div class="overlay">
-                                        <img src="../assets/pas/pcb/solder_printing.png"
-                                            class="img-fluid image">
+                                        <img src="../assets/pas/pcb/solder_printing.png" class="img-fluid image">
                                         <div class="middle">
                                             <div class="h4">
                                                 <p class="h6 text ">Solder Printing, Component Mounting</p>
@@ -2311,11 +2302,11 @@ Equipment</p>
                                 </div>
                                 <div class="col-md-3 pt-2">
                                     <div class="overlay">
-                                        <img src="../assets/pas/pcb/position_confirmation.png"
-                                            class="img-fluid image">
+                                        <img src="../assets/pas/pcb/position_confirmation.png" class="img-fluid image">
                                         <div class="middle">
                                             <div class="h4">
-                                                <p class="h6 text ">Position Confirmation (Barcode) and Part Multiplier Confirmation (LCR Tester) </p>
+                                                <p class="h6 text ">Position Confirmation (Barcode) and Part Multiplier
+                                                    Confirmation (LCR Tester) </p>
                                             </div>
                                         </div>
                                     </div>
@@ -2468,6 +2459,49 @@ Equipment</p>
                                         <div class="middle">
                                             <div class=" h4">
                                                 <p class="h4 text">Motor Driven Card Reader</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </Transition>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <hr class="hr">
+                        </div>
+                    </div>
+                    <!--Robotic-Designed Technology Inc. -->
+                    <div class="row">
+                        <div class="col-md-12 d-flex justify-content-between case"
+                            @click="isRTIOpen = showVar(isRTIOpen)">
+                            <p class="h4 title ">Robotic-Designed Technology Inc.</p>
+                            <p v-if="isRTIOpen"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z" />
+                                </svg></p>
+                            <p v-else><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                                </svg></p>
+                        </div>
+                    </div>
+                    <Transition>
+                        <div v-show="isRTIOpen">
+                            <div class="row">
+                                <div class="col-md-12  pt-2">
+                                    <div class="overlay">
+                                        <img src="../assets/rti/logo.png" class="img-fluid image" style="height: 490px;">
+                                        <div class="middle">
+                                            <img src="../assets/rti/rtiLogo.png" class="img-fluid" />
+                                            <div class="text">
+                                                <p class="h4 text">Robotic-Designed Technology Inc.</p>
+                                            </div>
+                                            <div>
+                                                <router-link class="btn btn-outline-light but btn-lg"
+                                                    :to="{name: 'mikuniRTI'}">Learn More</router-link>
                                             </div>
                                         </div>
                                     </div>
